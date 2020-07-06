@@ -1,0 +1,517 @@
+*{
+	box-sizing: border-box;
+	padding: 0px ;
+	margin: 0px ;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: "Rubik", serif;
+	color: #fff;
+	font-weight: 700;
+}
+/*Navbar*/
+nav{
+	z-index: -1;
+}
+.nav-item{
+	margin-right: 30px;
+}
+#nav-links{
+	color: #000;
+	font-family: 
+}
+#nav-links:hover{
+	transition: all .3s ease-out 0s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    color: #fff;
+}
+/*End of Header*/
+#cover{
+	background-image: url('images/solar_house.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	margin: 0px;
+}
+/*Solar Panels*/
+#cover h1{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 400;
+	color: #e08024;
+}
+/*Green Energy*/
+#cover .green_energy{
+	font-weight: 800;
+	color: #f4e3c9;
+	font-family: 'Rubik', sans-serif;
+}
+/*Convert Sunlight*/
+#cover .col-4:nth-of-type(1) span{
+	color: #e08024;
+}
+#cover .col-4:nth-of-type(3) span{
+	color: #52a039;
+}
+.green_color{
+	color: #52a039;
+}
+.orange_color{
+	color: #e08024;
+}
+#about{
+	background-color: #121212;
+}
+#about p{
+	color: #fff;
+}
+h1{
+	font-family: 'Prompt', sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+#products div.product-device{
+	background-image: url('images/panel1.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#products h1,p{
+	color:#000;
+}
+#products div.layers{
+	padding-top: 5vh;
+}
+.specs h1{
+	font-size: 2em;
+}
+@media (max-width: 380px) and (orientation: portrait){
+	#navbarNav{
+		font-size: 2em;
+	}
+	#nav-links{
+		color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 25vh;
+	}
+	#cover h1{
+		font-size: 2.4em;
+		padding-right: 5vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.2em;
+		padding-top: 40vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 0.8em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 16.5vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.3em;
+	}
+	.w-50{
+		width: 100% !important;
+	}
+}
+@media (min-width: 381px) and (max-width: 576px) and (orientation: portrait){
+	#navbarNav{
+		font-size: 2em;
+	}
+	#nav-links{
+	color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 25vh;
+	}
+	#cover h1{
+		font-size: 2.7em;
+		padding-right: 3vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.4em;
+		padding-top: 40vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 16vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.3em;
+	}
+	.w-50{
+		width: 100% !important;
+	}
+}
+@media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
+	#navbarNav{
+		font-size: 2em;
+	}
+	#nav-links{
+	color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 25vh;
+	}
+	#cover h1{
+		font-size: 3.5em;		
+	}
+	#cover .green_energy{
+		font-size: 1.7em;
+		padding-top: 40vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1.3em;
+	}
+	#cover i{
+		font-size: 2rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 11.8vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.3em;
+	}
+	.w-50{
+		width: 100% !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+	#navbarNav{
+		font-size: 2em;
+	}
+	#nav-links{
+	color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 24vh;
+	}
+	#cover h1{
+		font-size: 3.7em;
+		padding-right: 7vh;
+	}
+	#cover .green_energy{
+		font-size: 2em;
+		padding-top: 42vh;
+		padding-right: 7vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+	}
+	#cover div.row span{
+		font-size: 1.7em;
+	}
+	#cover i{
+		font-size: 2.7rem;
+	}
+	#products{
+		background: url('images/panel1.png') no-repeat;
+		background-position: right center; 
+		margin: 0px;
+	}
+	#products div.col-md-5{
+		margin-left: -3vh !important;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 14vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 2em;
+	}
+	#products h1:nth-of-type(1){
+		padding-right: 50vh;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait){
+	nav.bg-dark{
+	background: transparent !important;
+	}
+	#navbarNav{
+		font-size: 2em;
+	}
+	#cover{
+		padding-top: 25vh;
+	}
+	#cover h1{
+		font-size: 4em;
+		padding-right: 7vh;
+	}
+	#cover .green_energy{
+		font-size: 2.5em;
+		padding-top: 42vh;
+		padding-right: 7vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+	}
+	#cover div.row span{
+		font-size: 2em;
+	}
+	#cover i{
+		font-size: 3rem;
+	}
+	#products{
+		background: url('images/panel1.png') no-repeat;
+		background-position: right center; 
+		margin: 0px;
+	}
+	#products div.col-md-5{
+		margin-left: 10vh !important;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 11.8vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.3em;
+	}
+
+}
+@media (min-width: 1200px) and (orientation: landscape){
+	nav.bg-dark{
+	background: transparent !important;
+	}
+	#navbarNav{
+		font-size: 1.4em;
+	}
+	#cover{
+		padding-top: 100px;
+	}
+	#cover .green_energy{
+		font-size: 1.2em;
+		padding-top: 53vh;
+		padding-right: 7vh;
+	}
+	#cover h1{
+		font-size: 3em;
+		padding-right: 7vh;
+	}
+	#cover div.row{
+		padding-left: 40vh;
+		padding-top: 4vh;
+	}
+	#cover i{
+		font-size: 1.7rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	#products{
+		background: url('images/panel1.png') no-repeat;
+		background-position: right center; 
+		margin: 0px;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 17vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+}
