@@ -106,7 +106,7 @@ h1{
 .testimonial div.container-fluid{
 	background-color: #0b0b0b;
 }
-.testimonial h1{
+.testimonial .container-fluid h1{
 	color:#fff;
 	font-family: 'Prompt', sans-serif;
 	font-size:3em;
@@ -227,7 +227,7 @@ h1{
 		padding-top: 5vh;
 	}
 	hr{
-		width: 90% !important;
+		width: 100% !important;
 	}
 	.about_content p{
 		padding-top: 3vh;
