@@ -31,7 +31,7 @@ nav{
     color: #fff;
 }
 /*End of Header*/
-#cover{
+body{
 	background-image: url('images/solar_house.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -91,8 +91,20 @@ h1{
 .specs h1{
 	font-size: 2em;
 }
+.specs_content1 h4{
+	color:#fff;
+}
+.specs_content2 h4{
+	color:#fff;
+}
+.pricing-header p{
+	color:#fff;
+}
+.card-body ul,h1,h4{
+	color:#000;
+}
 
-@media (max-width: 380px) and (orientation: portrait){
+@media (max-width: 370px) and (orientation: portrait){
 	#navbarNav{
 		font-size: 2em;
 	}
@@ -103,7 +115,7 @@ h1{
 		color: #6aa740;
 	}
 	#cover{
-		padding-top: 25vh;
+		padding-top: 5vh;
 	}
 	#cover h1{
 		font-size: 2.4em;
@@ -111,7 +123,7 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.2em;
-		padding-top: 40vh;
+		padding-top: 41.5vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
@@ -164,7 +176,7 @@ h1{
 		width: 100% !important;
 	}
 }
-@media (min-width: 381px) and (max-width: 576px) and (orientation: portrait){
+@media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	#navbarNav{
 		font-size: 2em;
 	}
@@ -175,7 +187,7 @@ h1{
 		color: #6aa740;
 	}
 	#cover{
-		padding-top: 25vh;
+		padding-top: 8vh;
 	}
 	#cover h1{
 		font-size: 2.7em;
@@ -183,7 +195,7 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.4em;
-		padding-top: 40vh;
+		padding-top: 45vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
@@ -247,7 +259,7 @@ h1{
 		color: #6aa740;
 	}
 	#cover{
-		padding-top: 25vh;
+		padding-top: 15vh;
 	}
 	#cover h1{
 		font-size: 3.5em;		
@@ -318,7 +330,7 @@ h1{
 		color: #6aa740;
 	}
 	#cover{
-		padding-top: 24vh;
+		padding-top: 15vh;
 	}
 	#cover h1{
 		font-size: 3.7em;
@@ -391,7 +403,7 @@ h1{
 		font-size: 2em;
 	}
 	#cover{
-		padding-top: 25vh;
+		padding-top: 17vh;
 	}
 	#cover h1{
 		font-size: 4em;
@@ -460,9 +472,6 @@ h1{
 	}
 	#navbarNav{
 		font-size: 1.4em;
-	}
-	#cover{
-		padding-top: 100px;
 	}
 	#cover .green_energy{
 		font-size: 1.2em;
