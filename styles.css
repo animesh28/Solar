@@ -106,7 +106,7 @@ h1{
 
 @media (max-width: 370px) and (orientation: portrait){
 	#navbarNav{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	#nav-links{
 		color: #fff;
@@ -178,7 +178,7 @@ h1{
 }
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
 	#navbarNav{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	#nav-links{
 	color: #fff;
@@ -248,6 +248,81 @@ h1{
 		width: 100% !important;
 	}
 }
+@media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
+	body{
+		height: 250vh;
+	}
+	#navbarNav{
+		font-size: 1.5em;
+	}
+	#nav-links{
+	color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 30vh;
+	}
+	#cover h1{
+		font-size: 2.7em;
+		padding-right: 3vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.4em;
+		padding-top: 100vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 20vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.7em;
+	}
+	.w-50{
+		width: 100% !important;
+	}	
+}
 @media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
 	#navbarNav{
 		font-size: 2em;
@@ -266,7 +341,7 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.7em;
-		padding-top: 40vh;
+		padding-top: 43vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
@@ -318,6 +393,81 @@ h1{
 	.w-50{
 		width: 100% !important;
 	}
+}
+@media (min-width: 577px) and (max-width: 767px) and (orientation: landscape){
+	body{
+		height: 250vh;
+	}
+	#navbarNav{
+		font-size: 1.5em;
+	}
+	#nav-links{
+	color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 30vh;
+	}
+	#cover h1{
+		font-size: 2.7em;
+		padding-right: 3vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.4em;
+		padding-top: 110vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 20vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.7em;
+	}
+	.w-50{
+		width: 100% !important;
+	}	
 }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
 	#navbarNav{
@@ -395,6 +545,81 @@ h1{
 		padding-right: 50vh;
 	}
 }
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
+	body{
+		height: 250vh;
+	}
+	#navbarNav{
+		font-size: 1.5em;
+	}
+	#nav-links{
+		color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 30vh;
+	}
+	#cover h1{
+		font-size: 3em;
+		padding-right: 3vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.4em;
+		padding-top: 110vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 20vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.7em;
+	}
+	.w-50{
+		width: 100% !important;
+	}	
+}
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait){
 	nav.bg-dark{
 	background: transparent !important;
@@ -466,6 +691,81 @@ h1{
 	}
 
 }
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
+	body{
+		height: 200vh;
+	}
+	#navbarNav{
+		font-size: 1.5em;
+	}
+	#nav-links{
+		color: #fff;
+	}
+	#nav-links:hover{
+		color: #6aa740;
+	}
+	#cover{
+		padding-top: 30vh;
+	}
+	#cover h1{
+		font-size: 4em;
+		padding-right: 3vh;		
+	}
+	#cover .green_energy{
+		font-size: 1.7em;
+		padding-top: 90vh;
+		padding-right: 3vh;
+	}
+	#cover div.row{
+		padding-top: 4vh;
+		padding-left: 5px;
+	}
+	.row div.col-4{
+		padding: 0px;
+	}
+	#cover div.row span{
+		font-size: 1.3em;
+	}
+	#cover i{
+		font-size: 1.5rem;
+	}
+	#about{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+	}
+	div.about_content{
+		padding-top: 5vh;
+	}
+	hr{
+		width: 30%;
+	}
+	.about_content p{
+		padding-top: 3vh;
+	}
+	.specs_content1 h4{
+		margin-top: 5vh;
+	}
+	.specs_content2 h4:nth-of-type(1){
+		margin-top: 18vh;
+	}
+	.specs_content2 h4{
+		margin-top: 5vh;
+	}
+	.specs div.row{
+		padding-bottom: 10vh;
+	}
+	.specs h4{
+		border-top: 1px solid gray; 
+		width: 5vh;
+		padding-top: 3vh;
+	}
+	.specs .specs_content1 h1{
+		font-size: 1.7em;
+	}
+	.w-50{
+		width: 100% !important;
+	}		
+}
 @media (min-width: 1200px) and (orientation: landscape){
 	nav.bg-dark{
 	background: transparent !important;
@@ -475,7 +775,7 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.2em;
-		padding-top: 53vh;
+		padding-top: 55vh;
 		padding-right: 7vh;
 	}
 	#cover h1{
@@ -511,7 +811,7 @@ h1{
 		margin-top: 5vh;
 	}
 	.specs_content2 h4:nth-of-type(1){
-		margin-top: 17vh;
+		margin-top: 15vh;
 	}
 	.specs_content2 h4{
 		margin-top: 5vh;
