@@ -176,6 +176,9 @@ img.service{
   }
 }
 @media (max-width: 370px) and (orientation: portrait){
+	body{
+		height: 120vh;
+	}
 	#navbarNav{
 		font-size: 1.5em;
 	}
@@ -187,6 +190,7 @@ img.service{
 	}
 	#cover{
 		padding-top: 5vh;
+		margin-top: 5vh;
 	}
 	#cover h1{
 		font-size: 2.4em;
@@ -194,7 +198,7 @@ img.service{
 	}
 	#cover .green_energy{
 		font-size: 1.2em;
-		padding-top: 42vh;
+		padding-top: 53.5vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
@@ -251,7 +255,9 @@ img.service{
 	}
 }
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
-
+	body{
+		height: 120vh;
+	}
 	#navbarNav{
 		font-size: 1.5em;
 	}
@@ -270,11 +276,11 @@ img.service{
 	}
 	#cover .green_energy{
 		font-size: 1.4em;
-		padding-top: 45vh;
+		padding-top: 54vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
-		padding-top: 4vh;
+		padding-top: 2vh;
 		padding-left: 5px;
 	}
 	.row div.col-4{
@@ -594,6 +600,9 @@ img.service{
 	div.about_content{
 		padding-top: 5vh;
 	}
+	#products hr{
+		width: 20vh !important;
+	}
 	hr{
 		width: 50% !important;
 	}
@@ -620,7 +629,7 @@ img.service{
 	.specs .specs_content1 h1{
 		font-size: 2em;
 	}
-	#products h1:nth-of-type(1){
+	#products h1.service_head{
 		padding-right: 50vh;
 	}
 }
@@ -734,7 +743,7 @@ img.service{
 		margin: 0px;
 	}
 	#products div.col-md-5{
-		margin-left: 10vh !important;
+		margin-left: 5vh !important;
 	}
 	#about{
 		padding-top: 5vh;
@@ -772,6 +781,14 @@ img.service{
 
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
+	#products{
+		background: url('images/panel1.png') no-repeat;
+		background-position: right center; 
+		margin: 0px;
+	}
+	#products div.col-md-5{
+		margin-left: 10vh !important;
+	}
 	nav.bg-dark{
 	background: transparent !important;
 	}
@@ -791,7 +808,7 @@ img.service{
 		padding-top: 30vh;
 	}
 	#cover h1{
-		font-size: 6em;
+		font-size: 4em;
 		padding-right: 3vh;		
 	}
 	#cover .green_energy{
@@ -822,6 +839,7 @@ img.service{
 	hr{
 		width: 30% !important;
 	}
+
 	.about_content p{
 		padding-top: 3vh;
 	}
@@ -850,6 +868,9 @@ img.service{
 	}		
 }
 @media (min-width: 1200px) and (orientation: landscape){
+	body{
+		height: 110vh;
+	}
 	nav.bg-dark{
 	background: transparent !important;
 	}
@@ -867,7 +888,7 @@ img.service{
 	}
 	#cover div.row{
 		padding-left: 40vh;
-		padding-top: 4vh;
+		padding-top: 5px;
 	}
 	#cover i{
 		font-size: 1.7rem;
