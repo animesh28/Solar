@@ -187,6 +187,7 @@ h1{
 	}
 }
 @media (min-width: 371px) and (max-width: 576px) and (orientation: portrait){
+
 	#navbarNav{
 		font-size: 1.5em;
 	}
@@ -205,11 +206,11 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.4em;
-		padding-top: 45vh;
+		padding-top: 48vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
-		padding-top: 4vh;
+		padding-top: 2vh;
 		padding-left: 5px;
 	}
 	.row div.col-4{
@@ -334,6 +335,7 @@ h1{
 	}	
 }
 @media (min-width: 577px) and (max-width: 767px) and (orientation: portrait){
+
 	#navbarNav{
 		font-size: 2em;
 	}
@@ -702,6 +704,9 @@ h1{
 
 }
 @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape){
+	nav.bg-dark{
+	background: transparent !important;
+	}
 	body{
 		height: 200vh;
 	}
@@ -709,10 +714,10 @@ h1{
 		font-size: 1.5em;
 	}
 	#nav-links{
-		color: #fff;
+		color: #000;
 	}
 	#nav-links:hover{
-		color: #6aa740;
+		color: #fff;
 	}
 	#cover{
 		padding-top: 30vh;
