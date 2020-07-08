@@ -114,6 +114,68 @@ h1{
 h1{
 	font-weight: 700;
 }
+div.thankyou{
+	padding-top: 2vh;
+}
+.thankyou img{
+	width: 60vh;
+}
+.text2{
+	font-family: 'Kaushan Script', cursive;
+	color:#fff;
+	font-size: 3.5rem;
+}
+.thankyou{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+.thankyou span{
+  display: block;
+}
+.text1{
+	font-family:'Kaushan Script', cursive;
+	color: #fff;
+  	font-size: 8rem;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	position: relative;
+	animation: text 3s 1;
+}
+div.w-50{
+        display: inline-block; 
+        margin: 20px;
+    }
+div.img_cont{  
+	height: 350px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    }    
+img.service{
+        max-width: 90%;
+        max-height: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
 @media (max-width: 370px) and (orientation: portrait){
 	#navbarNav{
 		font-size: 1.5em;
@@ -206,11 +268,11 @@ h1{
 	}
 	#cover .green_energy{
 		font-size: 1.4em;
-		padding-top: 48vh;
+		padding-top: 45vh;
 		padding-right: 3vh;
 	}
 	#cover div.row{
-		padding-top: 2vh;
+		padding-top: 4vh;
 		padding-left: 5px;
 	}
 	.row div.col-4{
@@ -260,6 +322,7 @@ h1{
 	}
 }
 @media (min-width: 0px) and (max-width: 576px) and (orientation: landscape){
+
 	body{
 		height: 250vh;
 	}
@@ -407,6 +470,7 @@ h1{
 	}
 }
 @media (min-width: 577px) and (max-width: 767px) and (orientation: landscape){
+
 	body{
 		height: 250vh;
 	}
@@ -482,6 +546,7 @@ h1{
 	}	
 }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+
 	#navbarNav{
 		font-size: 2em;
 	}
@@ -495,12 +560,12 @@ h1{
 		padding-top: 15vh;
 	}
 	#cover h1{
-		font-size: 3.7em;
+		font-size: 4em;
 		padding-right: 7vh;
 	}
 	#cover .green_energy{
 		font-size: 2em;
-		padding-top: 42vh;
+		padding-top: 43vh;
 		padding-right: 7vh;
 	}
 	#cover div.row{
@@ -558,6 +623,7 @@ h1{
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
+
 	body{
 		height: 250vh;
 	}
@@ -643,12 +709,12 @@ h1{
 		padding-top: 17vh;
 	}
 	#cover h1{
-		font-size: 4em;
+		font-size: 5em;
 		padding-right: 7vh;
 	}
 	#cover .green_energy{
 		font-size: 2.5em;
-		padding-top: 42vh;
+		padding-top: 45vh;
 		padding-right: 7vh;
 	}
 	#cover div.row{
