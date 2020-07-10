@@ -877,9 +877,12 @@ img.service{
 	#navbarNav{
 		font-size: 1.4em;
 	}
+	#cover{
+		margin-top:5vh;
+	}
 	#cover .green_energy{
 		font-size: 1.5em;
-		padding-top: 60vh;
+		padding-top: 53.5vh;
 		padding-right: 7vh;
 	}
 	#cover h1{
