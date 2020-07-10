@@ -879,7 +879,7 @@ img.service{
 	}
 	#cover .green_energy{
 		font-size: 1.5em;
-		padding-top: 55vh;
+		padding-top: 60vh;
 		padding-right: 7vh;
 	}
 	#cover h1{
@@ -887,7 +887,6 @@ img.service{
 		padding-right: 7vh;
 	}
 	#cover div.row{
-		padding-left: 40vh;
 		padding-top: 5px;
 	}
 	#cover i{
